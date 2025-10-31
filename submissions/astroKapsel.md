@@ -11,9 +11,11 @@ CodeCapture
 -->
 
 ## Project Description
-You are observing the earth through time, watching from your capsule in space.
-This project puts the astronomical timelines of comets into perspective by summarizing the progress of human civilizations since the last passage.
-A countdown until the next passage 
+*astroKapsel* is an interactive web experience that places the viewer inside a quiet capsule observing Earth from space.  
+By tracking the orbits of comets, the project highlights humanity’s history on the timescale of celestial motion — summarizing what we, as a species, have accomplished between comet flybys.
+
+- When a periodic comet returns, we reflect on what has changed since it last passed.
+- For long-period or “great” comets, we record *sightings* — singular moments of awe witnessed across cultures.
 
 <!--
 The project I created is...
@@ -21,18 +23,22 @@ The project I created is...
 
 ## Inspiration behind the Project  
 My grandma sent me an article and made me rediscover my fascination for everything space related.
-If you think about it, humanity is just on a spinning rock floating through nothing.
+
+If you think about it, we're living on a rock floating through space — and making art, science, language, and memory.
+That puts everything in perspective.  
+
+This project tries to capture that feeling.
 
 <!--
 The reason I chose this idea/project was...
 -->
 
 ## Tech Stack    
-I use `Next.js` for a simple web framework and query the [NASA Small Body Database](https://ssd.jpl.nasa.gov/tools/sbdb_query.html) for comets with the user's query.
-Comet information and parameters are used to generate and store past and future `flybys`.
-These can be used to query the [FAL platform](https://fal.ai) to generate `summaries` of the time period using `google/gemini-2.5-flash-lite`, focusing on human achievements.
-FOr these `summaries`, images can be created using `fal-ai/flux/dev` by Blackforest Labs.
-
+- **Frontend:** `Next.js` + Tailwind + shadcn/ui
+- **Orbits & Data:** NASA’s [Small Body Database API](https://ssd.jpl.nasa.gov/tools/sbdb_query.html)
+- **Backend / Infrastructure:** `Appwrite` (Databases, Functions, Realtime, Storage, Sites)
+- **Text Summaries:** `google/gemini-2.5-flash-lite` via the [FAL Platform](https://fal.ai)
+- **Image Generation:** `google/nano-banana`  via the [FAL Platform](https://fal.ai)
 <!--
 The technologies I used...
 -->
