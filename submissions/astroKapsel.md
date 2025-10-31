@@ -70,7 +70,9 @@ https://hacktoberfest.appwrite.network
 -->
 
 ## Demo Video/Photos  
-_Share a 2-3 minute demo video of your project_
+Sorry I overlooked the duration requirement and it's 5min, hope that's fine!
+
+https://drive.google.com/file/d/1TR7Yud7pCqoYkJgpnwOu8BWUOxbZ3UkB/view?usp=sharing
 
 <!--
 https://www.youtube.com/watch?v=9IBaX1avYWc
